@@ -1,5 +1,7 @@
 // fonts
 @import "fonts/font-awesome/font-awesome";
+@import "fonts/firasans";
+@import "fonts/firasans_condensed";
 
 // common
 @import "common/mixins";
@@ -7,5 +9,5 @@
 @import "common/layout";
 
 // elements
-@import "elements/**/*.scss";
+@import "elements/*.scss";
 
