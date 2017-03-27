@@ -1,0 +1,335 @@
+[
+  {
+    "school": "Школа интерфейсов",
+    "number": "Лекция 1",
+    "title": "Адаптивная вёрстка",
+    "teacher": "Дмитрий Душкин",
+    "date": "25.10.2016",
+    "video": "https://events.yandex.ru/lib/talks/4162/",
+    "classroom": ""
+  },
+  {
+    "school": "Школа интерфейсов",
+    "number": "Лекция 2",
+    "title": "Работа с сенсорным пользовательским вводом",
+    "teacher": "Дмитрий Душкин",
+    "date": "26.10.2017",
+    "video": "https://events.yandex.ru/lib/talks/4172/",
+    "classroom": ""
+  },
+  {
+    "school": "Школа интерфейсов",
+    "number": "Лекция 3",
+    "title": "Мультимедиа: возможности браузера",
+    "teacher": "Максим Васильев",
+    "date": "10.11.2016",
+    "video": "https://events.yandex.ru/lib/talks/4197/",
+    "classroom": ""
+  },
+  {
+    "school": "Школа интерфейсов",
+    "number": "Лекция 4",
+    "title": "Нативные приложения на веб-технологиях",
+    "teacher": "Сергей Бережной",
+    "date": "11.11.2016",
+    "video": "https://events.yandex.ru/lib/talks/4230/",
+    "classroom": ""
+  },
+  {
+    "school": "Школа интерфейсов",
+    "number": "Лекция 5",
+    "title": "Клиентская оптимизация: базовые знания и лучшие практики",
+    "teacher": "Андрей Морозов",
+    "date": "12.11.2016",
+    "video": "https://events.yandex.ru/lib/talks/4292/",
+    "classroom": ""
+  },
+  {
+    "school": "Школа интерфейсов",
+    "number": "Лекция 6",
+    "title": "Клиентская оптимизация: мобильные устройства и инструменты",
+    "teacher": "Иван Карев",
+    "date": "15.11.2016",
+    "video": "https://events.yandex.ru/lib/talks/4307/",
+    "classroom": ""
+  },
+  {
+    "school": "Школа интерфейсов",
+    "number": "Лекция 7",
+    "title": "Инфраструктура веб-проектов",
+    "teacher": "Прокопюк Андрей",
+    "date": "10.12.2016",
+    "video": "https://events.yandex.ru/lib/talks/4323/",
+    "classroom": ""
+  },
+  {
+    "school": "Школа интерфейсов",
+    "number": "Лекция 8",
+    "title": "Инструменты разработки мобильного фронтенда",
+    "teacher": "Прокопюк Андрей",
+    "date": "15.12.2016",
+    "video": "https://events.yandex.ru/lib/talks/4324/",
+    "classroom": ""
+  },
+  {
+    "school": "Школа мобильной разработки",
+    "number": "Лекция 1",
+    "title": "Java Blitz (Часть 1)",
+    "teacher": "Эдуард Мацуков",
+    "date": "15.10.2016",
+    "video": "https://events.yandex.ru/lib/talks/4160/",
+    "classroom": ""
+  },
+  {
+    "school": "Школа мобильной разработки",
+    "number": "Лекция 2",
+    "title": "Git & Workflow",
+    "teacher": "Дмитрий Складнов",
+    "date": "16.10.2016",
+    "video": "https://events.yandex.ru/lib/talks/4161/",
+    "classroom": ""
+  },
+  {
+    "school": "Школа мобильной разработки",
+    "number": "Лекция 3",
+    "title": "Java Blitz (Часть 2)",
+    "teacher": "Эдуард Мацуков",
+    "date": "17.10.2016",
+    "video": "https://events.yandex.ru/lib/talks/4168/",
+    "classroom": ""
+  },
+  {
+    "school": "Школа мобильной разработки",
+    "number": "Лекция 4",
+    "title": "MyFirstApp (Часть 1)",
+    "teacher": "Роман Григорьев",
+    "date": "18.10.2016",
+    "video": "https://events.yandex.ru/lib/talks/4169/",
+    "classroom": ""
+  },
+  {
+    "school": "Школа мобильной разработки",
+    "number": "Лекция 5",
+    "title": "MyFirstApp (Часть 2)",
+    "teacher": "Роман Григорьев",
+    "date": "05.11.2016",
+    "video": "https://events.yandex.ru/lib/talks/4195/",
+    "classroom": ""
+  },
+  {
+    "school": "Школа мобильной разработки",
+    "number": "Лекция 6",
+    "title": "ViewGroup",
+    "teacher": "Алексей Щербинин",
+    "date": "06.11.2016",
+    "video": "https://events.yandex.ru/lib/talks/4196/",
+    "classroom": ""
+  },
+  {
+    "school": "Школа мобильной разработки",
+    "number": "Лекция 7",
+    "title": "Background",
+    "teacher": "Алексей Макаров",
+    "date": "07.11.2016",
+    "video": "https://events.yandex.ru/lib/talks/4222/",
+    "classroom": ""
+  },
+  {
+    "school": "Школа мобильной разработки",
+    "number": "Лекция 8",
+    "title": "RecyclerView",
+    "teacher": "Владимир Тагаков",
+    "date": "08.11.2016",
+    "video": "https://events.yandex.ru/lib/talks/4223/",
+    "classroom": ""
+  },
+  {
+    "school": "Школа мобильной разработки",
+    "number": "Лекция 9",
+    "title": "Service & Broadcasts",
+    "teacher": "Алексей Макаров",
+    "date": "10.11.2016",
+    "video": "https://events.yandex.ru/lib/talks/4275/",
+    "classroom": ""
+  },
+  {
+    "school": "Школа мобильной разработки",
+    "number": "Лекция 10",
+    "title": "Drawing",
+    "teacher": "Алексей Щербинин",
+    "date": "11.11.2016",
+    "video": "https://events.yandex.ru/lib/talks/4296/",
+    "classroom": ""
+  },
+  {
+    "school": "Школа мобильной разработки",
+    "number": "Лекция 11",
+    "title": "Content provider",
+    "teacher": "Максим Хромцов",
+    "date": "12.11.2016",
+    "video": "https://events.yandex.ru/lib/talks/4296/",
+    "classroom": ""
+  },
+  {
+    "school": "Школа мобильной разработки",
+    "number": "Лекция 12",
+    "title": "SQL&SQLite",
+    "teacher": "",
+    "date": "14.11.2016",
+    "video": "https://events.yandex.ru/lib/talks/4297/",
+    "classroom": ""
+  },
+  {
+    "school": "Школа мобильной разработки",
+    "number": "Лекция 13",
+    "title": "Fragments (Часть 1)",
+    "teacher": "Денис Загаевский",
+    "date": "15.11.2016",
+    "video": "https://events.yandex.ru/lib/talks/4320/",
+    "classroom": ""
+  },
+  {
+    "school": "Школа мобильной разработки",
+    "number": "Лекция 14",
+    "title": "Fragments (Часть 2)",
+    "teacher": "Денис Загаевский",
+    "date": "16.11.2016",
+    "video": "https://events.yandex.ru/lib/talks/4321/",
+    "classroom": ""
+  },
+  {
+    "school": "Школа мобильной разработки",
+    "number": "Лекция 15",
+    "title": "MVP&Co",
+    "teacher": "Дмитрий Попов",
+    "date": "10.12.2016",
+    "video": "https://events.yandex.ru/lib/talks/4346/",
+    "classroom": ""
+  },
+  {
+    "school": "Школа мобильной разработки",
+    "number": "Лекция 16",
+    "title": "Debugging & Polishing",
+    "teacher": "Илья Сергеев",
+    "date": "15.12.2016",
+    "video": "https://events.yandex.ru/lib/talks/4352/",
+    "classroom": ""
+  },
+  {
+    "school": "Школа мобильного дизайна",
+    "number": "Лекция 1",
+    "title": "Идея, исследование, концепт (Часть 1)",
+    "teacher": "Антон Тен",
+    "date": "15.10.2016",
+    "video": "https://events.yandex.ru/lib/talks/4158/",
+    "classroom": ""
+  },
+  {
+    "school": "Школа мобильного дизайна",
+    "number": "Лекция 2",
+    "title": "Идея, исследование, концепт (Часть 1)",
+    "teacher": "Антон Тен",
+    "date": "15.10.2016",
+    "video": "https://events.yandex.ru/lib/talks/4159/",
+    "classroom": ""
+  },
+  {
+    "school": "Школа мобильного дизайна",
+    "number": "Лекция 3",
+    "title": "Особенности проектирования мобильных интерфейсов",
+    "teacher": "Васюнин Николай",
+    "date": "18.10.2016",
+    "video": "https://events.yandex.ru/lib/talks/4167/",
+    "classroom": ""
+  },
+  {
+    "school": "Школа мобильного дизайна",
+    "number": "Лекция 4",
+    "title": "Продукт и платформа",
+    "teacher": "Сергей Калабин",
+    "date": "10.11.2016",
+    "video": "https://events.yandex.ru/lib/talks/4189/",
+    "classroom": ""
+  },
+  {
+    "school": "Школа мобильного дизайна",
+    "number": "Лекция 5",
+    "title": "Природа операционных систем",
+    "teacher": "Васюнин Николай",
+    "date": "12.11.2016",
+    "video": "https://events.yandex.ru/lib/talks/4190/",
+    "classroom": ""
+  },
+  {
+    "school": "Школа мобильного дизайна",
+    "number": "Лекция 6",
+    "title": "Прототипирование как процесс",
+    "teacher": ["Сергей Томилов", "Дарья Старицына"],
+    "date": "15.11.2016",
+    "video": "https://events.yandex.ru/lib/talks/4267/",
+    "classroom": ""
+  },
+  {
+    "school": "Школа мобильного дизайна",
+    "number": "Лекция 7",
+    "title": "Инструмент под задачи",
+    "teacher": ["Сергей Томилов", "Дарья Старицына"],
+    "date": "16.11.2016",
+    "video": "https://events.yandex.ru/lib/talks/4268/",
+    "classroom": ""
+  },
+  {
+    "school": "Школа мобильного дизайна",
+    "number": "Лекция 8",
+    "title": "Анимации",
+    "teacher": ["Сергей Томилов", "Дарья Старицына"],
+    "date": "18.11.2016",
+    "video": "https://events.yandex.ru/lib/talks/4266/",
+    "classroom": ""
+  },
+  {
+    "school": "Школа мобильного дизайна",
+    "number": "Дополнительная лекция",
+    "title": "Design Everything",
+    "teacher": ["Rijshouwer Krijn", "Treub Jonas"],
+    "date": "20.11.2016",
+    "video": "https://events.yandex.ru/lib/talks/4269/",
+    "classroom": ""
+  },
+  {
+    "school": "Школа мобильного дизайна",
+    "number": "Лекция 9",
+    "title": "Развитие продукта",
+    "teacher": "Андрей Гевак",
+    "date": "22.11.2016",
+    "video": "https://events.yandex.ru/lib/talks/4295/",
+    "classroom": ""
+  },
+  {
+    "school": "Школа мобильного дизайна",
+    "number": "Лекция 10",
+    "title": "Исследование интерфейсов",
+    "teacher": "Кондратьев Александр",
+    "date": "24.11.2016",
+    "video": "https://events.yandex.ru/lib/talks/4319/",
+    "classroom": ""
+  },
+  {
+    "school": "Школа мобильного дизайна",
+    "number": "Лекция 11",
+    "title": "Работа в команде",
+    "teacher": "Юрий Подорожный",
+    "date": "05.12.2016",
+    "video": "https://events.yandex.ru/lib/talks/4345/",
+    "classroom": ""
+  },
+  {
+    "school": "Школа мобильного дизайна",
+    "number": "Дополнительная лекция",
+    "title": "Айдентика",
+    "teacher": ["Дмитрий Моруз", "Ждан Филиппов"],
+    "date": "15.10.2016",
+    "video": "https://events.yandex.ru/lib/talks/4158/",
+    "classroom": ""
+  }
+]
