@@ -1,3 +1,16 @@
-h1 {
-  color:red;
+.header {
+  height:70px;
+  color:$white;
+  background-color: $red;
+  width:100%;
+
+  &__logo {
+    font-family: FiraSansExtraCondensed-Light;
+    font-size:24px;
+  }
+
+  &__text {
+    font-family: FiraSans-Light;
+    font-size:22px;
+  }
 }

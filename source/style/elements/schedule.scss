@@ -1,4 +1,125 @@
-h2 {
-  color: blue;
+.filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:35px 0 15px;
+}
+
+.school-filter {
   font-family: FiraSans-Regular;
+  font-size: 16px;
+  color:$black;
+
+  &__select {
+    height:36px;
+    border:2px solid $yellow;
+    padding:0 10px;
+
+    &:focus {
+      outline:none;
+    }
+  }
+
+  &__option {
+    padding:5px 0;
+  }
+}
+
+.teacher-filter {
+  font-family: FiraSans-Regular;
+  font-size: 16px;
+  color:$black;
+
+  &__text {
+    display:inline-block;
+  }
+
+  &__input {
+    margin-left:10px;
+    height:36px;
+    border:2px solid $yellow;
+    padding:0 10px;
+    width:275px;
+
+    &:focus {
+      outline:none;
+    }
+  }
+}
+
+.schedule {
+  width:100%;
+  margin-bottom:50px;
+
+  &__list {
+    width:100%;
+  }
+
+  &__row {
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:12px 0;
+    font-family: FiraSans-Regular;
+    font-size:14px;
+
+    &:nth-child(even) {
+      background-color: $lightgrey;
+    }
+
+    &--head {
+      font-family: FiraSans-Medium;
+      font-size:18px;
+      color:$blue;
+      padding:15px 0;
+      border-bottom: 3px solid $blue;
+    }
+  }
+
+  &__col {
+    text-align:center;
+    width:15%;
+    padding:0 5px;
+
+    &--medium {
+      width:20%;
+    }
+
+    &--wide {
+      width:40%;
+    }
+
+    &--blue {
+      cursor:pointer;
+      color:$blue;
+
+      &:hover {
+        color:$red;
+      }
+    }
+  }
+
+  &__link {
+    color:$blue;
+    text-decoration: none;
+    display: block;
+
+    &:hover {
+      color:$red;
+    }
+  }
+
+  &__button {
+    border-radius: 5px;
+    color: $black;
+    border:2px solid $yellow;
+    text-decoration: none;
+    padding:4px 12px;
+
+    &:hover {
+      border:2px solid $red;
+      color:$red;
+    }
+  }
 }

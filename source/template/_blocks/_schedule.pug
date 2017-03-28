@@ -1,4 +1,35 @@
+div.container
+    div.filters
+        div.school-filter
+            select.school-filter__select
+                option.school-filter__option Все школы
+                option.school-filter__option Школа разработки интерфейсов
+                option.school-filter__option Школа мобильной разработки
+                option.school-filter__option Школа мобильного дизайна
+        div.teacher-filter
+            div.teacher-filter__text Поиск по учителю:
+            input.teacher-filter__input(type="text", name="teacher", placeholder="Введите имя или фамилию")
 
-h2 Hello world! It's header#2
-div#block
-
+    div.schedule
+        div.schedule__row.schedule__row--head
+            div.schedule__col.schedule__col--wide Название лекции
+            div.schedule__col.schedule__col--medium Школа
+            div.schedule__col Учитель
+            div.schedule__col Аудитория
+            div.schedule__col Дата
+        div.schedule__list
+            //div.schedule__row
+            //    div.schedule__col.schedule__col--blue.schedule__col--wide
+            //        a.schedule__link(href="") Лекция 1. Адаптивная верстка
+            //    div.schedule__col.schedule__col--medium Школа разработки интерфейсов
+            //    div.schedule__col.schedule__col--blue Дмитрий Душкин
+            //    div.schedule__col Синий кит
+            //    div.schedule__col 25.10.2017
+            //div.schedule__row
+            //    div.schedule__col.schedule__col--blue.schedule__col--wide
+            //        a.schedule__link(href="") Лекция 1. Адаптивная верстка
+            //    div.schedule__col.schedule__col--medium Школа разработки интерфейсов
+            //    div.schedule__col.schedule__col--blue Дмитрий Душкин
+            //    div.schedule__col Синий кит
+            //    div.schedule__col
+            //        a.schedule__button(href="") Смотреть

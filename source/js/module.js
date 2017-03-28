@@ -1,25 +1,15 @@
-function helloWorld() {
-    var templates = require('./templates/App');
-
-    var friends = [
-        {
-            userName: 'Hello!'
-        },
-        {
-            userName: 'Hello!!!'
-        },
-        {
-            userName: 'Hello!!!!!!!'
-        }
-    ]
-
-    var html = templates({
-        friends: friends
-    });
-
-    document.querySelector('#block').innerHTML = html;
-}
-
 module.exports = {
-    func: helloWorld
+    init: function () {
+        this.renderLectureLast = require('./templates/lecture-last');
+        this.renderLectureFuture = require('./templates/lecture-future');
+        this.lecturesArray = require('./data/lectures.json');
+        this.teachersArray = require('./data/teachers.json');
+        this.lecturesList = document.querySelector('.schedule__list');
+
+        for (var i = 0; i < this.lecturesArray.length; i++) {
+            var item = this.renderLectureLast(this.lecturesArray[i]);
+
+            this.lecturesList.innerHTML += item;
+        }
+    }
 };

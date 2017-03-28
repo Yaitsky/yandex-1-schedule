@@ -1,3 +1,10 @@
-h3 {
-  color:green;
+.footer {
+  text-align:center;
+  padding:20px 0;
+
+  &__text {
+    font-family: FiraSans-Regular;
+    color:$darkgrey;
+    font-size: 14px;
+  }
 }

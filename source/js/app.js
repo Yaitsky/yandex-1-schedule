@@ -1,3 +1,3 @@
 var module = require('./module');
 
-module.func();
+module.init();
