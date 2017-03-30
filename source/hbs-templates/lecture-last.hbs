@@ -1,9 +1,13 @@
 <div class="schedule__row">
-    <div class="schedule__col schedule__col--blue schedule__col--wide">
+    <div class="schedule__col schedule__col--wide">
         <a href="{{video}}" class="schedule__link">{{title}}</a>
     </div>
     <div class="schedule__col schedule__col--medium">{{school}}</div>
-    <div class="schedule__col schedule__col--blue">{{teacher}}</div>
+    <div class="schedule__col">
+        {{#each teacher as |teach|}}
+              <span>{{teach}}</span>
+        {{/each}}
+    </div>
     <div class="schedule__col">{{classroom}}</div>
     <div class="schedule__col">
         <a href="{{video}}" class="schedule__button">Смотреть</a>

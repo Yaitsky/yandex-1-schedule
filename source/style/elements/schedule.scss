@@ -53,6 +53,12 @@
 
   &__list {
     width:100%;
+
+    p {
+      margin-top:20px;
+      font-family: FiraSans-Regular;
+      font-size:18px;
+    }
   }
 
   &__row {
@@ -82,21 +88,22 @@
     width:15%;
     padding:0 5px;
 
+    span {
+      display:block;
+      color:$blue;
+      cursor:pointer;
+
+      &:hover {
+        color:$red;
+      }
+    }
+
     &--medium {
       width:20%;
     }
 
     &--wide {
       width:40%;
-    }
-
-    &--blue {
-      cursor:pointer;
-      color:$blue;
-
-      &:hover {
-        color:$red;
-      }
     }
   }
 
@@ -120,6 +127,71 @@
     &:hover {
       border:2px solid $red;
       color:$red;
+    }
+  }
+}
+
+.teacher {
+  position:fixed;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  background-color:$white;
+  width:640px;
+  padding:25px;
+  display:none;
+  box-shadow: 1px 2px 4px rgba(0,0,0,0.2);
+
+  &__photo {
+    width:240px;
+    height:240px;
+    border-bottom: 4px solid $red;
+    float:left;
+  }
+
+  &__info {
+    width:320px;
+    margin-left:25px;
+    float:left;
+  }
+
+  &__name {
+    font-family: FiraSans-Medium;
+    font-size:30px;
+  }
+
+  &__job {
+    font-family: FiraSansExtraCondensed-Light;
+    font-size:22px;
+  }
+
+  &__text {
+    margin-top:15px;
+    font-family: FiraSans-Regular;
+    font-size:16px;
+  }
+
+  &__block {
+    text-align: right;
+  }
+
+  &__button {
+    background-color: $white;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: $black;
+    border:2px solid $yellow;
+    text-decoration: none;
+    padding:4px 12px;
+    cursor:pointer;
+
+    &:hover {
+      border:2px solid $red;
+      color:$red;
+    }
+
+    &:active {
+      outline: none;
     }
   }
 }
