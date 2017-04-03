@@ -40,12 +40,16 @@ module.exports = {
         var self = this;
         this.lecturesList.innerHTML = '';
         for (var i = 0; i < array.length; i++) {
-            var item = this.renderLectureLast(array[i]);
-
-            this.lecturesList.innerHTML += item;
+            if (array[i].video != "") {
+                var item = this.renderLectureLast(array[i]);
+                this.lecturesList.innerHTML += item;
+            } else {
+                var item = this.renderLectureFuture(array[i]);
+                this.lecturesList.innerHTML += item;
+            }
         }
         //назначаем обработчики на имена учителей
-        var teachers = this.lecturesList.querySelectorAll('.schedule__col span');
+        var teachers = this.lecturesList.querySelectorAll('.schedule__teacher');
         for (var i = 0; i < teachers.length; i++) {
             teachers[i].addEventListener('click', this.showTeacherWindow.bind(self));
         }
@@ -61,7 +65,8 @@ module.exports = {
             this.searchTeacherBlock.value = '';
         } else {
             for (var i = 0; i < this.lecturesArray.length; i++) {
-                if (selectedValue === this.lecturesArray[i].school) {
+                var schoolName = this.lecturesArray[i].school;
+                if (schoolName.indexOf(selectedValue) > -1) {
                     this.filteredArray.push(this.lecturesArray[i]);
                 }
             }

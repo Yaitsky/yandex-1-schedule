@@ -3,12 +3,20 @@
   justify-content: space-between;
   align-items: center;
   padding:35px 0 15px;
+
+  @include tablet {
+    flex-wrap: wrap;
+  }
 }
 
 .school-filter {
   font-family: FiraSans-Regular;
   font-size: 16px;
   color:$black;
+
+  @include tablet {
+    width:100%;
+  }
 
   &__select {
     height:36px;
@@ -29,6 +37,12 @@
   font-family: FiraSans-Regular;
   font-size: 16px;
   color:$black;
+
+  @include tablet {
+    width:100%;
+    text-align:right;
+    margin-top:15px;
+  }
 
   &__text {
     display:inline-block;
@@ -74,12 +88,20 @@
       background-color: $lightgrey;
     }
 
+    @include tablet {
+      flex-wrap: wrap;
+    }
+
     &--head {
       font-family: FiraSans-Medium;
       font-size:18px;
       color:$blue;
       padding:15px 0;
       border-bottom: 3px solid $blue;
+
+      @include tablet {
+        display:none;
+      }
     }
   }
 
@@ -88,13 +110,22 @@
     width:15%;
     padding:0 5px;
 
-    span {
-      display:block;
-      color:$blue;
-      cursor:pointer;
+    @include tablet {
+      padding:10px 10px;
+      text-align: right;
+    }
 
-      &:hover {
-        color:$red;
+    &:before {
+      content: attr(data-label);
+      display:none;
+
+      @include tablet {
+        display:block;
+        float:left;
+        padding-right:20px;
+        text-transform: uppercase;
+        font-size:14px;
+        color:$blue;
       }
     }
 
@@ -105,6 +136,24 @@
     &--wide {
       width:40%;
     }
+
+    span {
+      display: block;
+    }
+
+    @include tablet {
+      width:100%;
+    }
+  }
+
+  &__teacher {
+    display:block;
+    color:$blue;
+    cursor:pointer;
+
+      &:hover {
+        color:$red;
+      }
   }
 
   &__link {
@@ -141,6 +190,11 @@
   padding:25px;
   display:none;
   box-shadow: 1px 2px 4px rgba(0,0,0,0.2);
+  border-radius: 5px;
+
+  @include tablet {
+    width:380px;
+  }
 
   &__photo {
     width:240px;
@@ -153,6 +207,11 @@
     width:320px;
     margin-left:25px;
     float:left;
+
+    @include tablet {
+      margin-left:0;
+      margin-top:20px;
+    }
   }
 
   &__name {

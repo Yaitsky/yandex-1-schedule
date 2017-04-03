@@ -1,11 +1,4 @@
 // Media queries mixins
-
-@mixin hd {
-  @media screen and (max-width:$hd-width) {
-    @content;
-  }
-}
-
 @mixin desktop {
   @media screen and (max-width:$desktop-width) {
     @content;
