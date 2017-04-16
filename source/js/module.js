@@ -39,19 +39,21 @@ module.exports = {
     renderSchedule: function (array) {
         var self = this;
         this.lecturesList.innerHTML = '';
+        var item;
+
         for (var i = 0; i < array.length; i++) {
-            if (array[i].video != "") {
-                var item = this.renderLectureLast(array[i]);
+            if (array[i].video != '') {
+                item = this.renderLectureLast(array[i]);
                 this.lecturesList.innerHTML += item;
             } else {
-                var item = this.renderLectureFuture(array[i]);
+                item = this.renderLectureFuture(array[i]);
                 this.lecturesList.innerHTML += item;
             }
         }
         //назначаем обработчики на имена учителей
         var teachers = this.lecturesList.querySelectorAll('.schedule__teacher');
-        for (var i = 0; i < teachers.length; i++) {
-            teachers[i].addEventListener('click', this.showTeacherWindow.bind(self));
+        for (var k = 0; k < teachers.length; k++) {
+            teachers[k].addEventListener('click', this.showTeacherWindow.bind(self));
         }
     },
     renderFilteredBySchool: function () {
@@ -70,7 +72,6 @@ module.exports = {
                     this.filteredArray.push(this.lecturesArray[i]);
                 }
             }
-            console.log()
             this.renderSchedule(this.filteredArray);
             this.searchTeacherBlock.value = '';
         }
@@ -78,10 +79,11 @@ module.exports = {
     filterByTeacher: function () {
         var value = this.searchTeacherBlock.value;
         this.filteredByTeacherArray.length = 0;
+        var teachersName;
 
         if (this.filteredArray.length != 0) {
             for (var i = 0; i < this.filteredArray.length; i++) {
-                var teachersName = this.filteredArray[i].teacher.join();
+                teachersName = this.filteredArray[i].teacher.join();
                 if (this.isMatching(teachersName, value)) {
                     this.filteredByTeacherArray.push(this.filteredArray[i]);
                 }
@@ -92,10 +94,10 @@ module.exports = {
                 this.lecturesList.innerHTML = '<p>По Вашему запросу лекций не найдено</p>';
             }
         } else {
-            for (var i = 0; i < this.lecturesArray.length; i++) {
-                var teachersName = this.lecturesArray[i].teacher.join();
+            for (var k = 0; k < this.lecturesArray.length; k++) {
+                teachersName = this.lecturesArray[k].teacher.join();
                 if (this.isMatching(teachersName, value)) {
-                    this.filteredByTeacherArray.push(this.lecturesArray[i]);
+                    this.filteredByTeacherArray.push(this.lecturesArray[k]);
                 }
             }
             if (this.filteredByTeacherArray.length != 0) {
